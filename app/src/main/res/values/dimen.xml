@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_short1">2dp</dimen>
+    <dimen name="margin_short2">6dp</dimen>
+    <dimen name="margin_short3">10dp</dimen>
+
+    <dimen name="margin_medium1">8dp</dimen>
+    <dimen name="margin_medium2">12dp</dimen>
+
+    <dimen name="margin_large1">16dp</dimen>
+    <dimen name="margin_large2">18dp</dimen>
+    <dimen name="margin_large3">20dp</dimen>
+
+    <dimen name="padding_short">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">12dp</dimen>
+
+</resources>

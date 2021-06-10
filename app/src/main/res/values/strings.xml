@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ZubutTest</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="aviso">Aviso</string>
+    <string name="los_servicios_de_localizacion_estan_deshabilitados">Los servicios de localización están desabilitados. Favor de habilitarlos.</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="no_info">Aún no agrega direcciones a la lista.</string>
+    <string name="none">NONE</string>
+</resources>
