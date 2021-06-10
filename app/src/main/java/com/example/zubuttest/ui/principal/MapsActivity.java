@@ -154,7 +154,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
                             for(int i = 0; i<list.size(); i++){
                                 LatLng mark = new LatLng(list.get(i).latitude, list.get(i).longitude);
-                                mMap.addMarker(new MarkerOptions().position(mark).title("Adress: " + i+1));
+                                mMap.addMarker(new MarkerOptions().position(mark).title("Adress: " + (i+1)));
                             }
                         });
             }else{

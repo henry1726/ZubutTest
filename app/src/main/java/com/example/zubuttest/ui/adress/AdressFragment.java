@@ -82,6 +82,18 @@ public class AdressFragment extends Fragment implements OnAdressSelected{
     }
 
     @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        if (getActivity() != null) {
+            getActivity().setRequestedOrientation(
+                    ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
+
+            AdressActivity activity = (AdressActivity) getActivity();
+            activity.setToolbar(dataBinding.toolbar, getString(R.string.mis_direcciones));
+        }
+    }
+
+    @Override
     public void onCreateOptionsMenu(@NonNull Menu menu, @NonNull MenuInflater inflater) {
         inflater.inflate(R.menu.menu_delete, menu);
         this.menuDelete = menu.findItem(R.id.menu_delete);
