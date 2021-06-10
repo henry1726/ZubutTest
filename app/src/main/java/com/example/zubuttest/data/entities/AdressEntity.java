@@ -22,14 +22,15 @@ public class AdressEntity {
     @ColumnInfo(name = "coordenadas")
     private String coordinate;
 
+    public AdressEntity() {
+    }
+
+    @Ignore
     public AdressEntity(String name, String adress, String coordinate) {
         this.name = name;
         this.adress = adress;
         this.coordinate = coordinate;
     }
-
-    @Ignore
-
 
     public String getName() {
         return name;

@@ -26,4 +26,8 @@ public class AdressFragmentViewModel extends ViewModel {
     public LiveData<List<AdressEntity>> getAllAdress(){
         return adressRepository.getAllAdress();
     }
+
+    public void deleteAdress(){
+         adressRepository.deleteAdress();
+    }
 }

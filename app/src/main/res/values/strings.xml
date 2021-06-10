@@ -7,4 +7,6 @@
     <string name="aceptar">Aceptar</string>
     <string name="no_info">Aún no agrega direcciones a la lista.</string>
     <string name="none">NONE</string>
+    <string name="delete">Borrar direcciones</string>
+    <string name="mis_direcciones">Mis direcciones</string>
 </resources>

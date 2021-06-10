@@ -10,8 +10,10 @@ import com.example.zubuttest.data.entities.AdressEntity;
 
 @Database(entities = {
         AdressEntity.class
-}, version = 1)
+}, version = 1, exportSchema = false)
 
 public abstract class AppDataBase extends RoomDatabase {
+
     public abstract AdressDAO getAdressDAO();
+
 }

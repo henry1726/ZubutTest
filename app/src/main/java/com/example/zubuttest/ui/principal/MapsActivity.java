@@ -4,6 +4,7 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
 import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProvider;
+import androidx.lifecycle.ViewModelStoreOwner;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -21,6 +22,7 @@ import android.widget.Toast;
 
 import com.example.zubuttest.R;
 import com.example.zubuttest.sys.util.Constants;
+import com.example.zubuttest.ui.adress.AdressActivity;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
 import com.google.android.gms.location.LocationResult;
@@ -47,7 +49,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private LocationCallback locationCallback;
     private Location location;
     private Geocoder geocoder;
-    private Address adress;
     private MapsActivityViewModel viewModel;
 
 
@@ -116,7 +117,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     public void launchAdressList(){
-
+        Intent intent = new Intent(this, AdressActivity.class);
+        startActivity(intent);
     }
 
     @Override

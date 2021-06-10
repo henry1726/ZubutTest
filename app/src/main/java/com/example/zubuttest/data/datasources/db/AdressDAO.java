@@ -16,7 +16,7 @@ import java.util.List;
 public interface AdressDAO {
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    void insertAdress(AdressEntity amountsMov);
+    void insertAdress(AdressEntity adressEntity);
 
     @Query("SELECT * FROM direcciones")
     LiveData<List<AdressEntity>> readAllAdress();

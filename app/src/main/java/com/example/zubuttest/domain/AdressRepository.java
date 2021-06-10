@@ -27,4 +27,8 @@ public class AdressRepository {
     public LiveData<List<AdressEntity>> getAllAdress(){
         return adressDAO.readAllAdress();
     }
+
+    public void deleteAdress(){
+       adressDAO.deleteAdress();
+    }
 }

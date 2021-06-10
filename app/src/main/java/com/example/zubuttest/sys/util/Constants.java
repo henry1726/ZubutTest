@@ -6,7 +6,7 @@ public final class Constants {
 
     public static class Db {
 
-        public static final String DB_NAME = "FichasDeCobro_db";
+        public static final String DB_NAME = "Adress_db";
 
     }
 
